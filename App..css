@@ -1,0 +1,212 @@
+nav {
+    background-color: #0b63ce;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d6e8ff;
+}
+
+nav button {
+    background-color: white;
+    color: #0b63ce;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #d6e8ff;
+}
+
+.home {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.home h1 {
+    color: #0b63ce;
+    margin-bottom: 20px;
+}
+
+.home p {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    background-color: #0b63ce;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #084298;
+}
+
+.login-page {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px lightgray;
+}
+
+.login-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-page input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.login-page button {
+    width: 100%;
+    background-color: #0b63ce;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.login-page button:hover {
+    background-color: #084298;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.posts {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.post-card {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px lightgray;
+}
+
+.post-card h2 {
+    color: #0b63ce;
+}
+
+.post-card a {
+    font-weight: bold;
+}
+
+.single-post {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px lightgray;
+}
+
+.single-post h1 {
+    color: #0b63ce;
+}
+
+.single-post hr {
+    margin: 20px 0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    background-color: #0b63ce;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #084298;
+}
+
+.comment {
+    background-color: #eef5ff;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 5px solid #0b63ce;
+}
+
+.contact {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px lightgray;
+}
+
+.contact h1 {
+    color: #0b63ce;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    .buttons button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .login-page,
+    .posts,
+    .single-post,
+    .contact {
+        width: 90%;
+    }
+
+}
